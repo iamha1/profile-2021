@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
-
+import dataTimeline from './dataTimeline'
+import TimelineItems from './TimelineItems'
 
 
 const About = () => {
+    const [data] = useState(dataTimeline);
     return (
         <section className="page-section" id="about">
             <div className="container">
