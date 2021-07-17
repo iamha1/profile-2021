@@ -1,30 +1,48 @@
-import React from 'react'
-import {Navbar, Container, Nav, NavDropdown} from 'react-bootstrap'
+import React, {useState, useEffect} from 'react'
+import {Navbar, Container, Nav} from 'react-bootstrap'
+import './NavBar.css'
 
-const NavBar = () => {
+export const NavBar = () => {
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      setScroll(window.scrollY > 50);
+    });
+  }, []);
+
     return (
         <div>
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+  <Navbar collapseOnSelect className={scroll ? "bg-dark" : "bg-transparent"} expand="lg" variant="dark" id="custom-nav">
   <Container>
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand href="#home">HÀ NGUYỄN</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <Nav.Link href="#pricing">Pricing</Nav.Link>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
     </Nav>
     <Nav>
-      <Nav.Link href="#deets">More deets</Nav.Link>
-      <Nav.Link eventKey={2} href="#memes">
-        Dank memes
-      </Nav.Link>
+      <div className="nav-links-bar">
+        <section id="section-1">
+          <Nav.Link href="#about">About</Nav.Link>
+        </section>
+        <section id="section-2">
+          <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+        </section>
+        <section id="section-3">
+          <Nav.Link href="#contact">Contact</Nav.Link>
+        </section>
+        <section>
+          <Nav.Link className="social-links" href="https://github.com/VSmigielski" target="_blank" title="GitHub Profile" rel="noreferrer">
+          <i className="fab fa-github"></i>
+          </Nav.Link>
+        </section>
+        <section>
+          <Nav.Link className="social-links" href="https://www.linkedin.com/in/veronica-mccormick-b85025174/" target="_blank" title="LinkedIn Profile" rel="noreferrer">
+          <i className="fab fa-linkedin-in"></i>
+          </Nav.Link>
+        </section>
+      
+      
+      </div>
     </Nav>
   </Navbar.Collapse>
   </Container>
@@ -33,4 +51,3 @@ const NavBar = () => {
     )
 }
 
-export default NavBar;
