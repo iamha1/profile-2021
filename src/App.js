@@ -1,55 +1,29 @@
-import './App.css'
-import Nav from './Nav';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Scrollspy from 'react-scrollspy'
+import Navbar from './Navbar';
+import Header from './Header';
+import About from './About';
+import Portfolio from './Portfolio';
 
 function App() {
-// Navbar shrink function
-var navbarShrink = function () {
-  const navbarCollapsible = document.body.querySelector('#mainNav');
-  if (!navbarCollapsible) {
-      return;
-  }
-  if (window.scrollY === 0) {
-      navbarCollapsible.classList.remove('navbar-shrink')
-  } else {
-      navbarCollapsible.classList.add('navbar-shrink')
-  }
-
-};
-
-// Shrink the navbar 
-navbarShrink();
-
-// Shrink the navbar when page is scrolled
-document.addEventListener('scroll', navbarShrink);
-
-// Activate Bootstrap scrollspy on the main nav element
-const mainNav = document.body.querySelector('#mainNav');
-if (mainNav) {
-  new bootstrap.ScrollSpy(document.body, {
-      target: '#mainNav',
-      offset: 74,
-  });
-};
-
-// Collapse responsive navbar when toggler is visible
-const navbarToggler = document.body.querySelector('.navbar-toggler');
-const responsiveNavItems = [].slice.call(
-  document.querySelectorAll('#navbarResponsive .nav-link')
-);
-responsiveNavItems.map(function (responsiveNavItem) {
-  responsiveNavItem.addEventListener('click', () => {
-      if (window.getComputedStyle(navbarToggler).display !== 'none') {
-          navbarToggler.click();
-      }
-  });
-});
-
   return (
     <div className="App">
-      <Nav/>
-      
-     
+      <div>
+      <div>
+      <section id="section-1">
+        <Navbar/>
+        <Header id="masthead"/>
+      </section>
+      <section id="section-2"><About /></section>
+      <section id="section-3"><Portfolio /></section>
+      </div>
+      <Scrollspy items={ ['section-1', 'section-2', 'section-3'] } currentClassName="is-current">
+        <li><a href="#section-1">section 1</a></li>
+        <li><a href="#section-2">section 2</a></li>
+        <li><a href="#section-3">section 3</a></li>
+      </Scrollspy>
+    </div>
     </div>
   );
 }
