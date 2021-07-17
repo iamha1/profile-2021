@@ -1,4 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
+
 
 
 const About = () => {
@@ -10,7 +11,11 @@ const About = () => {
                     <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
                 </div>
                 <ul className="timeline">
-                   
+                {
+                data.map((project)=> {
+                    return <TimelineItems key={project.id} {...project}/>;
+                })
+            }   
                     <li className="timeline-inverted">
                         <div className="timeline-image">
                             <h4>
