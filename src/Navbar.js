@@ -41,7 +41,7 @@ export const NavBar = () => {
           </Nav.Link>
         </section>
       <section>
-      <Nav.Link className="social-links" href="" target="_blank" title="Resume" rel="noreferrer">
+      <Nav.Link className="social-links" href="https://drive.google.com/file/d/1svKy1VrDPFOp0hJMeY7zbv8zulGc6GWX/view?usp=sharing" target="_blank" title="Resume" rel="noreferrer">
           <i className="far fa-id-badge"></i>
           </Nav.Link>
       </section>
