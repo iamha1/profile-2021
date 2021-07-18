@@ -55,7 +55,7 @@ body {
     color: white;
     background: rgb(26,35,126);
     padding: 4px 8px;
-    font-size: 12px;
+    font-size: 14px;
     border-radius: 50%;
     transition: all 100ms ease-in-out;
 }
@@ -63,5 +63,10 @@ body {
 .social-links:hover {
     color: white;
     background: var(--branding-color);
+}
+
+#section-1 {
+    font-family: var(--default-font-family);
+    color: red;
 }
 
