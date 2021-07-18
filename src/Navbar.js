@@ -31,7 +31,7 @@ export const NavBar = () => {
           <Nav.Link href="#contact">Contact</Nav.Link>
         </section>
         <section>
-          <Nav.Link className="social-links" href="https://github.com/VSmigielski" target="_blank" title="GitHub Profile" rel="noreferrer">
+          <Nav.Link className="social-links" href="https://github.com/iamha1" target="_blank" title="GitHub Profile" rel="noreferrer">
           <i className="fab fa-github"></i>
           </Nav.Link>
         </section>
