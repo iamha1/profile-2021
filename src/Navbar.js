@@ -36,7 +36,7 @@ export const NavBar = () => {
           </Nav.Link>
         </section>
         <section>
-          <Nav.Link className="social-links" href="https://www.linkedin.com/in/veronica-mccormick-b85025174/" target="_blank" title="LinkedIn Profile" rel="noreferrer">
+          <Nav.Link className="social-links" href="https://www.linkedin.com/in/iamha/" target="_blank" title="LinkedIn Profile" rel="noreferrer">
           <i className="fab fa-linkedin-in"></i>
           </Nav.Link>
         </section>
