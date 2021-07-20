@@ -246,11 +246,19 @@ header.masthead .masthead-subheading {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-picture-of-me {
+.picture-of-me {
   border-radius: 50%;
   margin: 0 auto;
   display: block;
   height: 300px;
   width: auto;
+}
+
+#header-space {
+  padding-top: 25vh;
+}
+
+.about-me-size {
+font-size: 4vh;
 }
 
