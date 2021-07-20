@@ -75,7 +75,7 @@ const data = [
         id: 9,
         title: 'Full Belly',
         image:
-            'src/assets/img/project-img/sharkFin1.jpg',
+            'src/assets/img/project-img/fullbelly.jpg',
         description:
             'A full stack application allows users create their own libraries of recipes and create meals based on existing ingredients. | Technologies used: Java, Spring Boot, Thymeleaf, MySQL, API ',
         classRow: 'row mb-5 flex-row-reverse',
