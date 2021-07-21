@@ -13,8 +13,8 @@ const PortfolioItems = ({project}) => {
         <>
             <Col sm={6} lg={4} className="mb-4">
                 {/* <!-- Portfolio item--> */}
-                <div className="portfolio-item" id={project.id}>
-                    <a href={project.id} className="portfolio-link" onClick={handleShow}>
+                <div className="portfolio-item" id={project.link}>
+                    <a href={project.link} className="portfolio-link" onClick={handleShow}>
                 <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                 </div>
