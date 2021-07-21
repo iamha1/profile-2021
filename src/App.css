@@ -262,3 +262,30 @@ header.masthead .masthead-subheading {
 font-size: 4vh;
 }
 
+.portfolio-image {
+  display: block;
+  margin: 0 auto;
+}
+
+.modal-title {
+  width: 100%;
+}
+
+.modal-heading-area {
+  font-size: 36px;
+}
+
+.modal-subheading-area {
+  font-weight: normal;
+}
+
+.modal-btn {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.modal-close-button {
+  font-size: 20px;
+}
+

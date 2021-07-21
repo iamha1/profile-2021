@@ -22,7 +22,7 @@ const PortfolioItems = ({project}) => {
                 </a>
                 <div className="portfolio-caption">
                 <div className="portfolio-caption-heading">{project.title}</div>
-                <div className="portfolio-caption-subheading text-muted">{project.description}</div>
+                {/* <div className="portfolio-caption-subheading text-muted">{project.description}</div> */}
                 </div>
                 </div>
             </Col>
