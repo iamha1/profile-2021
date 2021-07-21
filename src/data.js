@@ -12,7 +12,7 @@ const data = [
     {
         id: 1,
         title: 'Password Generator',
-        image: './project-img/password-generator-project.jpg',
+        image: <password className='img-fluid'/> ,
         description:
             'An application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code.',
         classRow: 'row mb-5',
