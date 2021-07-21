@@ -28,8 +28,8 @@ const PortfolioItems = ({project}) => {
             </Col>
             
       <Modal class="portfolio-item" size="xl" show={show} onHide={handleClose}>
-        <Modal.Header closeButton>
-          <Modal.Title className="text-center">
+        <Modal.Header closeButton={false}>
+        <Modal.Title className="text-center">
               <span className="modal-heading-area">
                   {project.title} <br/>
               </span>
