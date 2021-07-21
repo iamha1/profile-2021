@@ -9,7 +9,7 @@ const Portfolio = () => {
             <Container>
                 <div className="text-center">
                     <h2 className="section-heading text-uppercase mb-3">Portfolio</h2>
-                    <h3 className="section-subheading text-muted mb-5">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 className="section-subheading text-muted mb-5">Hey! Check out some of my projects that I get to do on my own or with my friends!</h3>
                 </div>
                 <Col sm={12}>
                     <PortfolioItem />

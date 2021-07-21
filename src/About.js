@@ -8,7 +8,7 @@ const About = () => {
             <Container>
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
-                    <h3 class="section-subheading text-muted mb-3">Ha Nguyen</h3>
+                    {/* <h3 class="section-subheading text-muted mb-3">Ha Nguyen</h3> */}
                 </div>
                 <Row class="text-center">
                     <Col>
@@ -19,8 +19,8 @@ const About = () => {
                     <Col md={1} lg={2}>
                     </Col>
                     <Col sm={12} md={10} lg={8}> 
-                        <h4 class="my-3">E-Commerce</h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                        <h4 class="my-3">Ha from Hanoi</h4>
+                        <p class="text-muted">A marketing professional, experienced in project management, trained in software development, excellent team player with exceptional multi-cultural interpersonal skills and the ability to adapt to rapidly changing situations</p>
                     </Col>
                     <Col md={1} lg={2}>
                     </Col>

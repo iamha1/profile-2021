@@ -55,7 +55,7 @@ const data = [
     },
     {
         id: 7,
-        title: 'Travel with me',
+        title: 'Travel With Me',
         image:
             '/project-img/travelwithme.jpg',
         description:
@@ -64,9 +64,9 @@ const data = [
     },
     {
         id: 8,
-        title: 'Shakr',
+        title: 'SHAKR',
         image:
-            '/project-img/sharkFin1.jpg',
+            '/project-img/Shakr_Demo.png',
         description:
             'A full stack application resembling Tinder but for restaurants where users can obtain information for different restaurants based on locations and cuisines. | Technologies used: Java, Spring Boot Vue.js, API, PostgreSQL',
         classRow: 'row mb-5 flex-row-reverse',
