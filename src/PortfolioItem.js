@@ -18,7 +18,7 @@ const PortfolioItems = ({project}) => {
                 <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                 </div>
-                {project.image}
+                <img className="img-fluid" src={project.image} alt={project.title} />
                 </a>
                 <div className="portfolio-caption">
                 <div className="portfolio-caption-heading">{project.title}</div>
