@@ -1,12 +1,12 @@
-import password from './project-img/password-generator-project.jpg'
-import quiz from './project-img/cye-project.jpg'
-import calendar from './project-img/ha-calendar.jpg'
-import burger from './project-img/burger1.jpg'
-import shark from './project-img/sharkFin1.jpg'
-import collab from './project-img/collabhub1.jpg'
-import travel from './project-img/travelwithme.jpg'
-import shaker from './project-img/Shakr_Demo.png'
-import fullbelly from './project-img/fullbelly.jpg'
+import password from './password-generator-project.jpg'
+import quiz from './cye-project.jpg'
+import calendar from './ha-calendar.jpg'
+import burger from './burger1.jpg'
+import shark from './sharkFin1.jpg'
+import collab from './collabhub1.jpg'
+import travel from './travelwithme.jpg'
+import shaker from './Shakr_Demo.png'
+import fullbelly from './fullbelly.jpg'
 
 const data = [
     {
