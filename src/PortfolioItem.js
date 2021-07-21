@@ -13,12 +13,12 @@ const PortfolioItems = ({project}) => {
         <>
             <Col sm={6} lg={4} className="mb-4">
                 {/* <!-- Portfolio item--> */}
-                <div className="portfolio-item">
-                    <a className="portfolio-link" onClick={handleShow}>
+                <div className="portfolio-item" id={project.id}>
+                    <a href={project.id} className="portfolio-link" onClick={handleShow}>
                 <div className="portfolio-hover">
                 <div className="portfolio-hover-content"><i className="fas fa-plus fa-3x"></i></div>
                 </div>
-                <img className="img-fluid" src={project.image} alt={project.title} />
+                <img className="img-fluid"  src={project.image} alt={project.title} />
                 </a>
                 <div className="portfolio-caption">
                 <div className="portfolio-caption-heading">{project.title}</div>
@@ -55,17 +55,14 @@ const PortfolioItems = ({project}) => {
                 <Row>
                     <Col xs={1} lg={2}></Col>
                     <Col xs={12} lg={8} className="text-center mt-2">
-                        {project.title}
+                        <div className="demo-github">
+                             <a target="_blank" rel="noreferrer" href={project.demo}>Demo</a>
+                             <a target="_blank" rel="noreferrer"href={project.github}>GitHub</a>
+                        </div>    
                     </Col>
                     <Col xs={1} lg={2}></Col>
                 </Row>
-                <Row>
-                    <Col xs={1} lg={2}></Col>
-                    <Col xs={12} lg={8} className="text-center mt-2">
-                        {project.title}
-                    </Col>
-                    <Col xs={1} lg={2}></Col>
-                </Row>
+                
                 <br/>
                 <Row>
                     <Col xs={5}>
