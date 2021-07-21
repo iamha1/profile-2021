@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/hafromhanoi/static/css/main.953306ee.chunk.css",
+    "main.js": "/hafromhanoi/static/js/main.51397f55.chunk.js",
+    "main.js.map": "/hafromhanoi/static/js/main.51397f55.chunk.js.map",
+    "runtime-main.js": "/hafromhanoi/static/js/runtime-main.00b0e96f.js",
+    "runtime-main.js.map": "/hafromhanoi/static/js/runtime-main.00b0e96f.js.map",
+    "static/css/2.4be38407.chunk.css": "/hafromhanoi/static/css/2.4be38407.chunk.css",
+    "static/js/2.c66e74a3.chunk.js": "/hafromhanoi/static/js/2.c66e74a3.chunk.js",
+    "static/js/2.c66e74a3.chunk.js.map": "/hafromhanoi/static/js/2.c66e74a3.chunk.js.map",
+    "index.html": "/hafromhanoi/index.html",
+    "static/css/2.4be38407.chunk.css.map": "/hafromhanoi/static/css/2.4be38407.chunk.css.map",
+    "static/css/main.953306ee.chunk.css.map": "/hafromhanoi/static/css/main.953306ee.chunk.css.map",
+    "static/js/2.c66e74a3.chunk.js.LICENSE.txt": "/hafromhanoi/static/js/2.c66e74a3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/hafromhanoi/static/media/caphe.b0b71eba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.00b0e96f.js",
+    "static/css/2.4be38407.chunk.css",
+    "static/js/2.c66e74a3.chunk.js",
+    "static/css/main.953306ee.chunk.css",
+    "static/js/main.51397f55.chunk.js"
+  ]
+}
